@@ -10,13 +10,13 @@ public class _0_1_Knapsack
         System.out.println("Enter no of objects");
         n=sc.nextInt();
         System.out.println("Enter "+(n)+" Profit");
-        int profit[]=new int[n+1];
+        int profit[]=new int[n];
         for(int i=0;i<n;i++)
         {
             profit[i]=sc.nextInt();
         }
         System.out.println("Enter "+(n)+" Weight");
-        int weight[]=new int[n+1];
+        int weight[]=new int[n];
         for(int i=0;i<n;i++)
         {
             weight[i]=sc.nextInt();

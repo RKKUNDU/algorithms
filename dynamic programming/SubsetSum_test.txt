@@ -1,0 +1,6 @@
+Input :
+4
+6 3 2 1
+5
+
+Output : true

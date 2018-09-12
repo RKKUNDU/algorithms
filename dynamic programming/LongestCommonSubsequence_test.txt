@@ -1,0 +1,18 @@
+Input :
+qpqrr
+pqprqrp
+
+Output : 4
+
+Input :
+aab
+aca
+
+Output : 2
+
+Input :
+abcbdab
+bdcaba
+
+Output : 4
+Input :

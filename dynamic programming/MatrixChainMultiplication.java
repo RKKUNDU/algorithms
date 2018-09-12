@@ -15,7 +15,7 @@ public class MatrixChainMultiplication
             dimension[i]=sc.nextInt();
         }
         int ans=solve(dimension);
-        System.out.println("Minimum cost for this multiplication is "+ans);
+        System.out.println("Minimum cost for this matrix chain multiplication is "+ans);
 
     }
     static int solve(int dimension[])
@@ -32,12 +32,12 @@ public class MatrixChainMultiplication
             {
                 int l=j+i;
                 arr[j][l]=Integer.MAX_VALUE;
-                for(int k=0;k<l;k++)
+                for(int k=j;k<l;k++)
                 {
                     int x=arr[j][k]+arr[k+1][l]+dimension[j]*dimension[k+1]*dimension[l+1];
                     if(x<arr[j][l])
                     {
-                        x=arr[j][l];
+                        arr[j][l]=x;
                     }
                 }
             }

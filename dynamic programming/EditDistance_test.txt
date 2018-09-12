@@ -1,0 +1,16 @@
+Input :
+geek
+gesek
+
+Output : 1
+
+Input :
+cat
+cut 
+
+Output : 1
+Input :
+sunday
+saturday
+
+Output : 3

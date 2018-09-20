@@ -1,0 +1,9 @@
+Input :
+3 2
+
+Output : 5
+
+Input :
+5 3
+
+Output : 35
